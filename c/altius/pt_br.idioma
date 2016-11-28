@@ -1,0 +1,112 @@
+;USAR PONTO E VIRGULA PARA COMENTARIOS
+;USAR ESTE ARQUIVO PARA AS TRADUCOES
+; ----- [] -----
+@PAGINA_TITULO = "Core360 - CRM"
+@PAGINA_TITULO_ANO = "2016"
+
+@TEXTO_USUARIO = "Usuário"
+
+@TEXTO_USER = "Foto"
+@HOJE = "Hoje"
+@ENVIAR = "Enviar"
+@BOTAO_LOGIN = "Entrar"
+@BOTAO_LOGOUT = "Sair"
+
+@PAGINA_FOOTER_NOME_EMPRESA = "Encore"
+@PAGINA_FOOTER_COPYRIGHT = "&copy; 2016 - Core 360."
+@LABEL_PESQUISAR = "Pesquisar"
+@DIGITE_AQUI = "Digite aqui"
+@MINHA_CONTA = "Minha Conta"
+@MEUS_CURSOS = "Meus Cursos"
+@MEU_PERFIL = "Meu Perfil"
+@MENSAGENS = "Mensagens"
+@SAIR = "Sair"
+@SALVAR = "Salvar"
+
+@CLIQUE_ACESSAR = "Clique para acessar"
+
+@TEXTO_FOTO = "Foto"
+@TEXTO_ALTERAR = "Alterar"
+@TEXTO_NOME_COMPLETO = "Nome Completo"
+@TEXTO_NOME_PRIMEIRO = "Primeiro Nome"
+@TEXTO_NOME_ULTIMO = "Último Nome"
+@TEXTO_SEU_PRIMEIRO_NOME = "Seu Primeiro Nome"
+@TEXTO_SEU_ULTIMO_NOME = "Seu Último Nome"
+
+@TEXTO_EMAIL = "E-mail"
+@TEXTO_EMAIL_ADDRESS = "Endereço de E-mail"
+@TEXTO_WEBSITE = "Website"
+@TEXTO_CORE360 = "www.core360.com.br"
+
+@TEXTO_MUDAR_PSW = "Mudar Senha"
+@TEXTO_PSW = "Senha"
+
+@TEXTO_CONFIRMAR_ALTERACOES = "Confirmar Alterações"
+@TEXTO_FECHAR = "Fechar"
+
+@TEXTO_TERMOS_DE_USO = "Termos de Uso"
+@TEXTO_CONTATO = "Contato"
+
+@TEXTO_CADASTRE_SE = "Cadastre-se"
+
+@TEXTO_NEWSLETTER = "Newsletter"
+@TEXTO_SUBSCRIBE = "Inscreva-se"
+
+@TEXTO_DESENV_POR = "&copy; 2015."
+@TEXTO_DATA = "Data"
+@TEXTO_NOME = "Nome"
+@TEXTO_PROGRESSO = "Progresso"
+@TEXTO_ACOES = "Ações"
+
+@TEXTO_PARTICIPAR = "Participar"
+@TEXTO_SEGUIR = "Seguir"
+@TEXTO_DESISTIR = "Desistir"
+
+@TEXTO_CRIAR = "Criar"
+
+@TEXTO_NOVO_ARQUIVO = "Novo Arquivo"
+@TEXTO_ENVIAR_ARQUIVO = "Enviar Arquivo"
+
+@TEXTO_ARQUIVO = "Arquivo"
+@TEXTO_TITULO = "Título"
+
+@TEXTO_PROXIMO = "Próximo"
+
+@TEXTO_SUB_TITULO = "Sub-Título"
+@TEXTO_CANCELAR = "Cancelar"
+@TEXTO_ENVIAR = "Enviar"
+
+@TEXTO_ABRIR = "Abrir"
+@TEXTO_FECHAR = "Fechar"
+
+@TEXTO_SALVAR_CONTINUAR = "Salvar e Continuar"
+@TEXTO_PERFIL = "Perfil"
+
+@TEXTO_CURSO = "Curso"
+
+@TEXTO_INICIO = "Inicio"
+@TEXTO_FIM = "Fim"
+
+@TEXTO_CALENDARIO = "Calendario"
+@TEXTO_ITEM = "Item"
+@TEXTO_REFERENCIA = "Referencia"
+@TEXTO_QUANTIDADE = "Quantidade"    
+
+@TEXTO_GERENCIAR_CONTA = "Gerenciar Conta"
+@TEXTO_AVATAR = "Avatar"
+@TEXTO_ADICIONAR_IMAGEM = "Adicionar Imagem"
+@TEXTO_INSCREVA_NEWSLETTER = "Inscreva-se na nossa Newsletter"
+
+
+@MSG_EXCLUIR = "Deseja realmente EXCLUIR este item?"
+
+@TITULO_AGUARDE = "Aguarde"
+@TEXTO_AGUARDE = "Por favor aguarde enquanto processamos sua ação."
+
+@EDITAR = "Editar"
+@EXCLUIR = "Excluir"
+
+@TEXTO_OPCOES = "Opções"
+@TEXTO_CIDADE = "Cidade"
+@TEXTO_UF = "Estado"
+@MOEDA_PAIS = "R$"

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Meta-Information -->
+    <title>@PAGINA_TITULO</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Vendor: Bootstrap Stylesheets http://getbootstrap.com -->
+    <link rel="stylesheet" href="{PATHSKY}css/bootstrap.min.css">
+    <!-- Our Website CSS Styles -->
+    <link rel="stylesheet" href="{PATHSKY}css/icons.css">
+    <link rel="stylesheet" href="{PATHSKY}css/main.css">
+    <link rel="stylesheet" href="{PATHSKY}css/responsive.css">
+
+</head>
+<body>
+<div id="progressBar">
+</div>     
+<span class="fa fa-close"></span>
+</div><!-- Toggle Content -->
+<div class="top-bar">
+    <div class="logo">
+        <a href="index.html" title="">
+			<img src="{PATHSKY}images/logo-core-loja.jpg" alt="" style="width: 85px;">
+		</a>
+        <div class="menu-options"><span class="menu-action"><i></i></span></div>
+    </div>
+    <form class="search-form">
+        <input type="text" placeholder="Pesquise aqui..." />
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    <div class="quick-links">
+        <ul>
+            <li><a title="" id="toolFullScreen" class="purple-skin"><i class="fa fa-arrows-alt"></i></a></li>
+            <li><a title="" id="toolFullScreen" class="red-skin"><i class="fa fa-close"></i></a></li>
+        </ul>
+    </div>
+</div><!-- Top Bar -->
+<header class="side-header light-skin opened-menu">
+    <div class="admin-details">
+        <span><img src="http://placehold.it/896x932" alt="" /></span>
+        <h3>John doe</h3>
+        <i>Web CODER</i>
+    </div>
+    <div class="menu-scroll">
+		{MENU_ESQUERDA}
+    </div><!-- Menu Scroll -->
+</header>
+<div class="main-content">
+
+<div class="breadcrumbs">
+    <ul>
+        <li><a href="javascript: void(0);" title="">Home</a></li>
+        <li><a href="javascript: void(0);" title="">Financeiro</a></li>
+        <li><a href="javascript: void(0);" title="">Baixa CEF</a></li>
+    </ul>
+</div>
+
+<div class="heading-sec">
+    <div class="row">
+        <div class="col-md-4 column">
+            <div class="heading-profile">
+                <h2>Baixa de T&iacute;tulos CEF</h2>
+                <span>CEF, Atualize os boletos emitidos pelo Magento.</span>
+            </div>
+        </div>
+        <div class="col-md-8 column">&nbsp;</div>
+    </div>
+</div><!-- Top Bar Chart -->
+
+<div class="panel-content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="widget">
+                <div class="form-elements-sec">
+                    <div class="widget-title">
+                        <h3>Parab&eacute;ns o arquivo {RET} foi lido e os pagamentos abaixo foram atualizados no sistema.</h3>
+                        <span>&nbsp;</span>
+                    </div>
+
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Num. Documento</th>
+                                    <th>Nosso N&uacute;mero</th>
+                                    <th>Valor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+								{LINHAS_RET}
+                            </tbody>
+                        </table>
+					
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- Panel Content -->
+
+</div><!-- Main Content -->
+<footer>
+    <div class="container">
+        <p>@PAGINA_FOOTER_COPYRIGHT</p>
+    </div>
+</footer>
+
+<!-- Vendor: Javascripts -->
+<script src="{PATHSKY}js/jquery-2.1.3.js"></script>
+<script src="{PATHSKY}js/bootstrap.min.js"></script>
+<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+
+<!-- Our Website Javascripts -->
+<script src="{PATHSKY}js/app.js"></script>
+<script src="{PATHSKY}js/main.js"></script>
+<script src="{PATHSKY}js/common.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+
+    "use strict";
+
+    //*** Piety Mini Charts ***//
+        $(function() {
+            $(".bar").peity("bar", {
+              fill: ["#ff8484"],
+              height: ["40px"],
+              width: ["94px"]
+            })
+
+            $(".bar2").peity("bar", {
+              fill: ["#9797ff"],
+              height: ["40px"],
+              width: ["94px"]
+            })
+        });
+
+    });
+</script>
+
+</body>
+</html>
